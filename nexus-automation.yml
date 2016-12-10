@@ -1,0 +1,8 @@
+---
+- name: test reachability to 8.8.8.8 using mgmt vrf pp
+  nxos_ping:
+    dest: 8.8.8.8
+    vrf: management
+    host: 10.32.0.11
+
+  
