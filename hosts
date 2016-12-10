@@ -8,5 +8,7 @@
 [ucso:children]
 leaf
 
-[virl]
-172.16.1.[59:61]
+[virl-ios]
+172.16.1.[59:61]    ansible_user=cisco ansible_ssh_pass=cisco
+[virl-nxos]
+172.16.1.62    ansible_user=nxos
